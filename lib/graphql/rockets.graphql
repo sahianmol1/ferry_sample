@@ -1,0 +1,16 @@
+query Rockets {
+    rockets {
+        company
+        country
+        description
+        name
+        mass {
+            kg
+        }
+        height {
+            meters
+        }
+        type
+        wikipedia
+    }
+}
